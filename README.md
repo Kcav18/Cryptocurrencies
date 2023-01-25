@@ -12,3 +12,23 @@ This project consists of four technical analysis parts:
 - Part 2: Reducing Data Dimensions Using PCA
 - Part 3: Clustering Cryptocurrencies Using K-means
 - Part 4: Visualizing Cryptocurrencies Results
+
+
+The technical analysis was completed in Jupyter Notebook. To view this code, [click here](https://github.com/Kcav18/Cryptocurrencies/blob/main/crypto_clustering.ipynb).
+
+Please note that the visualizations in Part 4 do not show up when viewing the code through GitHub. The completed visualizations are below:
+
+***The Elbow Curve below finds the best value for K:***
+
+![Elbow Curve](https://github.com/Kcav18/Cryptocurrencies/blob/main/elbow_curve.png)
+
+***The 3D-Scatter Plot below shows the PCA data and clusters - and each data point shows the CoinName and Algorithm on hover:***
+
+![3-D Scatter](https://github.com/Kcav18/Cryptocurrencies/blob/main/3d_Scatter.png)
+
+***The hvplot Scatter below was created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point.***
+
+![hvplot Scatter](https://github.com/Kcav18/Cryptocurrencies/blob/main/hvplot_scatter.png)
+
+
+
